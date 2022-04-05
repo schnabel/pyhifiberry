@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "pyhifiberry"
+version = "0.1.0"
+description = "Python library to interface with Hifiberry OS API."
+authors = ["Diogo Gomes <diogogomes@gmail.com>", "Dirk Habighorst <dirk.habighorst@gmail.com>"]
+license = "MIT License"
+classifiers=[
+    'License :: OSI Approved :: MIT License',
+    'Intended Audience :: Developers',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Topic :: Software Development :: Libraries :: Python Modules'
+]
+homepage = "https://github.com/schnabel/pyhifiberry"
+repository = "https://github.com/schnabel/pyhifiberry"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+aiohttp = "^3.8.1"
+python-socketio = {extras = ["asyncio_client"], version = "^5.0"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.1"
+pytest-asyncio = "^0.18.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
