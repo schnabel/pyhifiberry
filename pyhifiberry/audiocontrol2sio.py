@@ -1,7 +1,7 @@
 """Socketio based API to Hifiberry OS - audiocontrol2"""
 import logging
 
-from socketio import AsyncClient, AsyncClientNamespace
+from .socketio_v5 import AsyncClient, AsyncClientNamespace
 
 from .consts import DEFAULT_HOST, DEFAULT_PORT
 
