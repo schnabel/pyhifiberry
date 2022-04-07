@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyhifiberry"
-version = "0.1.4"
+version = "0.1.1"
 description = "Python library to interface with Hifiberry OS API."
 authors = ["Diogo Gomes <diogogomes@gmail.com>", "Dirk Habighorst <dirk.habighorst@gmail.com>"]
 license = "MIT License"
